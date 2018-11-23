@@ -1,0 +1,66 @@
+.wrapper {
+  display: flex;
+  width: 100%;
+  align-items: stretch;
+}
+
+.sidebar {
+  min-width: 400px;
+  max-width: 600px;
+  min-height: 100vh;
+}
+.sidebar > img {
+  width: 150px;
+  padding: 20px;
+}
+.userEmail {
+  padding: 20px 0 0 20px;
+  color: white;
+  font-size: 18px;
+}
+.userEmail > span > img {
+  width: 180px;
+  padding-left: 150px;
+}
+.userContent {
+  background-color: rgb(97, 97, 97);
+}
+.userListCommands {
+  background-color: rgb(250, 250, 250);
+}
+.userListCommands > ul {
+  list-style-type: none;
+}
+.userListCommands > ul > li {
+  padding-top: 10px;
+  font-size: 20px;
+  color: rgb(63, 63, 63);
+  font-weight: 600;
+}
+.userListCommands > ul > li > span {
+  padding-left: 20px;
+}
+.material-icons {
+  line-height: 1.5;
+}
+
+.settings {
+  padding-left: 15px !important;
+  color: grey;
+}
+.settingsIcon {
+  color: grey;
+}
+.userEmail {
+  font-size: 21px;
+}
+.userEmail > i {
+  padding-left: 150px;
+}
+.userEmail > i:hover {
+  cursor: pointer;
+}
+.avatar {
+  font-size: 120px;
+  padding-left: 15px;
+}

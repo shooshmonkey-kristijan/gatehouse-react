@@ -1,0 +1,51 @@
+.headerContainer {
+  display: flex;
+  flex-direction: row;
+}
+.hamburgerMenu {
+  padding-left: 10px;
+  color: rgb(64, 64, 64);
+}
+.hamburgerMenu > img {
+  width: 30px;
+}
+.summaryHeader {
+  padding-left: 10px;
+  color: rgb(64, 64, 64);
+}
+.summaryHeader > span {
+  font-size: 25px;
+  font-weight: 800;
+}
+.backArrow {
+  padding-left: 30px;
+  font-size: 25px;
+  font-weight: 800;
+  color: rgb(64, 64, 64);
+}
+.forwardArrow {
+  padding-left: 50px;
+  font-size: 25px;
+  font-weight: 800;
+  color: rgb(64, 64, 64);
+}
+.loadText {
+  padding-left: 50px;
+  color: rgb(206, 206, 206);
+}
+.iconSearch {
+  margin-left: auto;
+  color: rgb(64, 64, 64);
+}
+.iconSearch > img {
+  width: 30px;
+}
+.searchIcon {
+  font-size: 35px;
+  cursor: pointer;
+}
+.backArrow,
+.forwardArrow,
+.hamburgerMenu {
+  cursor: pointer;
+}

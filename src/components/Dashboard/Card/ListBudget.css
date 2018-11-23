@@ -1,0 +1,28 @@
+.listDiv {
+  background-color: white;
+  flex-direction: column;
+  display: flex;
+  padding-top: 50px;
+}
+.table {
+  width: 78% !important;
+  margin: 0 auto;
+}
+.listTitle {
+  color: rgb(117, 117, 117);
+}
+
+.itemDescTitle {
+  color: rgb(45, 156, 219);
+  font-size: 18px;
+}
+
+.table th {
+  border: none !important;
+}
+.table td {
+  border-top: none !important;
+  border-bottom: 3px solid rgb(233, 233, 233);
+  color: black;
+  font-size: 22px;
+}

@@ -1,0 +1,32 @@
+.listItem > input {
+  border: none;
+  font-size: 18px;
+  border-bottom: 3px solid rgb(225, 225, 225);
+  padding-top: 5px;
+}
+
+.listItem > input:focus {
+  outline: none;
+}
+.listItem > p {
+  margin: 0;
+}
+.listItem {
+  font-size: 15px;
+}
+
+.paraTitle {
+  color: rgb(117, 117, 117);
+  padding-top: 30px;
+}
+#paraTitle {
+  color: rgb(117, 117, 117);
+  padding-top: 30px;
+}
+.notes > input {
+  border: none;
+  font-size: 18px;
+}
+.notes > input:focus {
+  outline: none;
+}
